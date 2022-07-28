@@ -7,8 +7,8 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  // height: 90vh;
-  // width: 100vw;
+  height: 90vh;
+  width: 100vw;
   .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
@@ -105,8 +105,8 @@ header.masthead {
   }
 }
 
-// p {
-//   margin-top: 90px;
-//   margin-bottom: 1rem;
-//   line-height: 1.75;
-// }
+p {
+  margin-top: 90px;
+  margin-bottom: 1rem;
+  line-height: 1.75;
+}

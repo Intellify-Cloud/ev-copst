@@ -1,12 +1,12 @@
 baseurl: ""
 
-title      : evo Chanelle Macey - Expert in Bond Origination & Home Loans | Durban
-email      : chanelle.macey@evogroup.co.za
-description: Contact Chanelle Macey from evo Chanelle Macey to help you with your home loan. I am an experienced property professional specializing in home loans and property finance. I am passionate about the property industry focusing on bonds, home loans, and origination. I am committed to excellence and building long-term relationships.
+title      : evo Copestone - Bond Origination & Home Loans Expert in Cape Town
+email      : tash.pillay@evogroup.co.za
+description: Contact Grant Butler from evo Copestone to help you with your home loan. We are seasoned property professionals and specialize in mortgages and property finance with years of experience. Our experience ranges from sales to finance and out focus is bonds, homeloans and origination. evo Copestone is committed to excellent client service, building long-term relationships.
 author     : Eben Roux / Pieter Oosthuizen
 
 analytics:
-  google: G-2X3NV6BXQM
+  google: G-XXX
 
 collections:
   portfolio:
@@ -20,14 +20,14 @@ webserver_headers:
     - GET, OPTIONS, HEAD
 
 logo:
-  path: /assets/evo chanelle macey logo.png
+  path: /assets/evo copestone logo.png
 
 exclude: [node_modules,webpack-config.js,package.json,package-lock.json]
 
-group: evo Homeloans
+group: evo Home Loans
 
-company: evo Chanelle Macey 
+company: evo Copestone 
 
-url: https://evohomeloans.co.za/bond-originator/uncategorized/chanelle-macey-evo-home-loans/
+url: https://evohomeloans.co.za/bond-originator/cape-town/evo-copestone/ 
 
-address: 275 Peter Mokaba Road, Morningside, Durban, 4001
+address: 75 Starfish Ocean Tides Residential Estate Big Bay

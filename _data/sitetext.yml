@@ -1,6 +1,6 @@
 header:
     title: 
-    text: Need a homeloan?
+    text: Coming Soon
 
 services:
     title: "Services We Offer"
@@ -11,19 +11,19 @@ services:
         desc: "We submit Home Loan Applications to up to seven banks negotiating the best interest rates and deal in the market at any given time."
         icon: fas fa-home
         link: 
-          url: mailto:chanelle.macey@evogroup.co.za ?subject=Mail from evo Chanelle Macey website
+          url: mailto:tash.pillay@evogroup.co.za?subject=Mail from evo Umhlanga website
           text: "Email Me"
       - title: "Pre-qualification"
         desc: "I help you check your credit record, income and expenses to give you an accurate assessment of what you can afford. You will then know how likely you are to qualify for a bond."
         icon: fas fa-tasks       
         link:
-          url: tel:+27795620507
-          text: "Call: 079 562 0507"
+          url: tel:+27315661996
+          text: "Call: 031 566 1996"
       - title: "Still Looking for a Home"
         desc: "I am searching property portals and visiting show houses but have a few questions."
         icon: fas fa-search
         link: 
-          url: mailto:chanelle.macey@evogroup.co.za ?subject=Mail from evo Chanelle Macey website
+          url: mailto:tash.pillay@evogroup.co.za?subject=Mail from evo Umhlanga website
           text: "Email Me"
 
 articles:
@@ -75,7 +75,7 @@ more-calculators:
           text: "Calculate"
 
 textblock:
-    title: "Why evo Chanelle Macey"
+    title: "Why evo Umhlanga"
     text: "Home loans ....getting your bond approved."
     footer: "Our service is completely FREE, with no obligation."
     section: textblock
@@ -99,15 +99,13 @@ portfolio:
     
 about:
     title: "About Us"
-    text2: "Property runs in my family's veins, with a father who is a property developer and a mom who has been an estate agent for more than 30 years, I have had  exposure to the industry from many perspectives and fully understand the ups & downs of approved and declined bonds.
-    <br><br>
-    My passion for my work shows in my day-to-day interactions and all of my transactions. 
-    <br><br>
-    I understand the importance of each sale for my buyers and real estate partners.
-    <br><br>
-    I am committed to obtaining the best bond offer no matter the challenge, so feel free to contact me if you need a pre-qualification or a home loan.
-    <br><br>
-    I look forward to helping you!"
+    text2: "evo Umhlanga has actively been involved in the real estate industry and working with bond originators for the past 20 years.<br><br>
+
+    evo Umhlanga services a successful real estate firm and takes care of their 13 branches in Kwa-Zulu Natal.<br><br>
+
+    Using manual feed, Tash would fax her bond applications and wait for feedback, knowing the bond process on her fingertips. Thirteen years later Tash Pillay revolutionized their capturing system and joined the ooba family. <br><br>
+    
+    In 2014 Tash and Kimeshni Pillay, a powerful mother and daughter team, took a bold step and opened the doors of evo Umhlanga.  evo Umhlanga services a successful real estate firm and takes care of their 13 branches in Kwa-Zulu Natal. Tash and Kimeshni both thrive on."
     
 clients:
     title: Bank Partners
@@ -144,76 +142,47 @@ team:
     section: team
     contact: 
     people:
-      - name: "Chanelle Macey"
+      - name: "Kimeshni Pillay"
         role: "Homeloan Specialist"
-        image: assets/img/team/Chanelle Macey evo Homeloans.jpg
+        image: assets/img/team/400x400f1.jpg
         social:
-          - url: tel:079 562 0507
+          - url: tel:061 457 4947
             icon: fas fa-phone
-          - url: mailto:chanelle.macey@evogroup.co.za?subject=evo Chanelle Macey Website Enquiry
+          - url: mailto:kim.pillay@evogroup.co.za?subject=evo Umhlanga Website Enquiry
             icon: fas fa-envelope
-          - url: https://www.facebook.com/chanellehomeloan
-            icon: fab fa-facebook-f
-          - url: https://za.linkedin.com/in/chanelle-macey-homeloans
-            icon: fab fa-linkedin-in
-
-      - name: "Busi Connies"
-        role: "Bond Administrator"
-        image: assets/img/team/Busi Connies evo Homeloans.jpg
-        social:
-          - url: tel:076 800 4625
-            icon: fas fa-phone
-          - url: mailto:Busisiweconnies09@gmail.com?subject=evo Chanelle Macey Website Enquiry
-            icon: fas fa-envelope
-          # - url: https://www.facebook.com/chanellehomeloan
+          # - url: https://www.facebook.com/xxx
           #   icon: fab fa-facebook-f
-          # - url: https://za.linkedin.com/in/chanelle-macey-homeloans
+          # - url: https://www.linkedin.com/in/bondapply
           #   icon: fab fa-linkedin-in
 
-      - name: "Bianca Coetzer"
-        role: "Bond Administrator"
-        image: assets/img/team/Bianca Coetzer evo Homeloans.jpg
+      - name: "Tash Pillay"
+        role: "Homeloan Specialist"
+        image: assets/img/team/400x400f2.jpg
         social:
-          - url: tel:076 867 5401
+          - url: tel:083 597 8698
             icon: fas fa-phone
-          - url: mailto:bianca.coetzer@evogroup.co.za?subject=evo Chanelle Macey Website Enquiry
+          - url: mailto:tash.pillay@evogroup.co.za?subject=evo Umhlanga Website Enquiry
             icon: fas fa-envelope
+          # - url: https://www.facebook.com/xxx
+          #   icon: fab fa-facebook-f
+          # - url: https://www.linkedin.com/in/bondapply
+          #   icon: fab fa-linkedin-in
 
-      - name: "Jacque Calitz"
-        role: "Bond Administrator"
-        image: assets/img/team/Jacque Calitz evo Homeloans.jpg
-        social:
-          - url: tel:071 883 3644
-            icon: fas fa-phone
-          # - url: mailto:bianca.coetzer@evogroup.co.za?subject=evo Chanelle Macey Website Enquiry
-          #   icon: fas fa-envelope
-          
 testimonials:
     title: "TESTIMONIALS"
     text: "What Others Say About Me"
     section: testimonials
     people:
-      - name: "Leandre Van Rooyen"
-        testimony: "Working with Chanelle has been an absolute pleasure!"
+      - name: "Anon D. ☆☆☆☆☆"
+        testimony: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
 
-      - name: "Gareth"
-        testimony: "Chanelle is a Rockstar! Amazing service and delivery. I will definitely be referring her to friends looking to secure bonds."
+      - name: "Unknown M. ☆☆☆☆☆"
+        testimony: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
 
-      - name: "Grace C."
-        testimony: "Thank you so so much, couldn’t have done it without you. You went far and beyond, against all odds and still succeeded ❤️ It’s not an understatement that you’re great at what you do!"
+      - name: "Psuedo V.☆☆☆☆☆"
+        testimony: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."
 
-      - name: "Christopher Perumall"
-        testimony: "Hi Chanelle..thank you for being there for us. Thank you for going the extra mile for us and going out of your way to make things happen. Thank you for being patient with us and making the bond possible. Thank you for putting such an extra effort in to accomplish our bond. We really appreciate you. Thank you kindly."
-
-      - name: "Leendert & Rachelle Roos"
-        testimony: "Hi Chanelle, first of all, I want to thank you for always being friendly and helpful....... Clearly with each phone call the smile was there and I believe that is what kept us positive during our whole deal. You are a go-getter and nothing will stand in your way to help your clients. We truly admire your good service, warm personality, and great efforts with every step to finalize our bond finance. Keep up the stunning work!"
-
-      - name: "Dr. Frank ☆☆☆☆☆"
-        testimony: "I would love to thank you for your dedication and hard work. What seemed like an impossible venture and receiving rejection after rejection from previous consultants, phone call after phone call, you were able to make it happen and I can finally say I have my dream property! Thank you very much! I will definitely recommend you to all the people who ever need your services. Very professional and honest. I thank you."  
-      
-
-
-
+        
 
 contact:
     title: "Contact Us"
@@ -221,16 +190,16 @@ contact:
     section: team
     
 footer:
-    legal: "Powered by evo Homeloans"
+    legal: "Powered by evo Home Loans"
     social:
-      - url: https://twitter.com/chanelle_macey
-        icon: "fab fa-twitter"  
-      - url: https://www.facebook.com/chanellehomeloan
-        icon: "fab fa-facebook-f"
-      - url: https://za.linkedin.com/in/chanelle-macey-homeloans
-        icon: "fab fa-linkedin-in"
-      - url: https://api.whatsapp.com/send?phone=27795620507
-        icon: "fab fa-whatsapp"
+      # - url: https://twitter.com
+      #   icon: "fab fa-twitter"  
+      # - url: https://www.facebook.com/xxx
+      #   icon: "fab fa-facebook-f"
+      # - url: https://linkedin.com
+      #   icon: "fab fa-linkedin-in"
+      # - url: https://github.com/raviriley/agency-jekyll-theme
+      #   icon: "fab fa-github"
       # - url: https://instagram.com
       #   icon: "fab fa-instagram"
 
