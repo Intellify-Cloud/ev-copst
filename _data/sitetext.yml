@@ -11,19 +11,19 @@ services:
         desc: "We submit Home Loan Applications to up to seven banks negotiating the best interest rates and deal in the market at any given time."
         icon: fas fa-home
         link: 
-          url: mailto:tash.pillay@evogroup.co.za?subject=Mail from evo Umhlanga website
+          url: mailto:grant.butler@evogroup.co.za?subject=Mail from evo Copestone website
           text: "Email Me"
       - title: "Pre-qualification"
         desc: "I help you check your credit record, income and expenses to give you an accurate assessment of what you can afford. You will then know how likely you are to qualify for a bond."
         icon: fas fa-tasks       
         link:
-          url: tel:+27315661996
-          text: "Call: 031 566 1996"
+          url: tel:+27826035414
+          text: "Call: 082 603 5414"
       - title: "Still Looking for a Home"
         desc: "I am searching property portals and visiting show houses but have a few questions."
         icon: fas fa-search
         link: 
-          url: mailto:tash.pillay@evogroup.co.za?subject=Mail from evo Umhlanga website
+          url: mailto:grant.butler@evogroup.co.za?subject=Mail from evo Copestone website
           text: "Email Me"
 
 articles:
@@ -75,7 +75,7 @@ more-calculators:
           text: "Calculate"
 
 textblock:
-    title: "Why evo Umhlanga"
+    title: "Why evo Copestone"
     text: "Home loans ....getting your bond approved."
     footer: "Our service is completely FREE, with no obligation."
     section: textblock
@@ -99,13 +99,11 @@ portfolio:
     
 about:
     title: "About Us"
-    text2: "evo Umhlanga has actively been involved in the real estate industry and working with bond originators for the past 20 years.<br><br>
-
-    evo Umhlanga services a successful real estate firm and takes care of their 13 branches in Kwa-Zulu Natal.<br><br>
-
-    Using manual feed, Tash would fax her bond applications and wait for feedback, knowing the bond process on her fingertips. Thirteen years later Tash Pillay revolutionized their capturing system and joined the ooba family. <br><br>
-    
-    In 2014 Tash and Kimeshni Pillay, a powerful mother and daughter team, took a bold step and opened the doors of evo Umhlanga.  evo Umhlanga services a successful real estate firm and takes care of their 13 branches in Kwa-Zulu Natal. Tash and Kimeshni both thrive on."
+    text2: "evo Copestone is the brainchild of Grant Butler, who after many years in the property and home loan industry, sought a model that would both richly reward our consultants and at the same time provide a service to our clients (Estate Agents, Buyers, Developers, Banks and Attorneys) that is seamless and service “way above the rest”.
+    <br><br>
+    Grant Butler has used his 30 years of home loan experience to create a phenomenal team of consultants where World Class service is a minimum standard. The evo Copestone team excels at customer service, be it banks, agents, buyers or attorneys.
+    <br><br>
+    Besides offering world-class service to all the stake holders (Estate Agents, Buyers, Developers, Banks and Attorneys) in the home loan industry, evo Copestone has a unique admin outsourcing model.  We have dedicated admin resources at our disposal who ensure that our applications are sent seamlessly to multiple banks thereby ensuring you the best possible deal. evo Copestone’ s seamless processing and exceptional service is free to you. Together with evo Copestone, the dream of owning your own home becomes a reality."
     
 clients:
     title: Bank Partners
@@ -142,26 +140,13 @@ team:
     section: team
     contact: 
     people:
-      - name: "Kimeshni Pillay"
+      - name: "Grant Butler"
         role: "Homeloan Specialist"
         image: assets/img/team/400x400f1.jpg
         social:
-          - url: tel:061 457 4947
+          - url: tel:082 603 5414
             icon: fas fa-phone
-          - url: mailto:kim.pillay@evogroup.co.za?subject=evo Umhlanga Website Enquiry
-            icon: fas fa-envelope
-          # - url: https://www.facebook.com/xxx
-          #   icon: fab fa-facebook-f
-          # - url: https://www.linkedin.com/in/bondapply
-          #   icon: fab fa-linkedin-in
-
-      - name: "Tash Pillay"
-        role: "Homeloan Specialist"
-        image: assets/img/team/400x400f2.jpg
-        social:
-          - url: tel:083 597 8698
-            icon: fas fa-phone
-          - url: mailto:tash.pillay@evogroup.co.za?subject=evo Umhlanga Website Enquiry
+          - url: mailto:grant.butler@evogroup.co.za?subject=evo Copestone Website Enquiry
             icon: fas fa-envelope
           # - url: https://www.facebook.com/xxx
           #   icon: fab fa-facebook-f
