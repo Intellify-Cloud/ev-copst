@@ -141,12 +141,25 @@ team:
     contact: 
     people:
       - name: "Grant Butler"
-        role: "Homeloan Specialist"
-        image: assets/img/team/400x400f1.jpg
+        role: "Managing Director"
+        image: assets/img/team/300x300.jpg
         social:
           - url: tel:082 603 5414
             icon: fas fa-phone
           - url: mailto:grant.butler@evogroup.co.za?subject=evo Copestone Website Enquiry
+            icon: fas fa-envelope
+          # - url: https://www.facebook.com/xxx
+          #   icon: fab fa-facebook-f
+          # - url: https://www.linkedin.com/in/bondapply
+          #   icon: fab fa-linkedin-in
+
+      - name: "Andy Breach"
+        role: "Operations Director"
+        image: assets/img/team/300x300.jpg
+        social:
+          - url: tel:083 968 8712
+            icon: fas fa-phone
+          - url: mailto:andy.breach@evogroup.co.za?subject=evo Copestone Website Enquiry
             icon: fas fa-envelope
           # - url: https://www.facebook.com/xxx
           #   icon: fab fa-facebook-f
