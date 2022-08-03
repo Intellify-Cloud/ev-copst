@@ -192,8 +192,8 @@ footer:
     social:
       # - url: https://twitter.com
       #   icon: "fab fa-twitter"  
-      # - url: https://www.facebook.com/xxx
-      #   icon: "fab fa-facebook-f"
+      - url: https://www.facebook.com/EvoCopestone/
+        icon: "fab fa-facebook-f"
       # - url: https://linkedin.com
       #   icon: "fab fa-linkedin-in"
       # - url: https://github.com/raviriley/agency-jekyll-theme
