@@ -7,7 +7,7 @@ background: white
 <br>
 
 <div>
-    <iframe class="bond-calc" frameborder="0"
+    <iframe class="bg-dark bond-calc" frameborder="0"
         src="https://www.ooba.co.za/calculators/bond-repayment-calculator/?iframe=true&iftype=nobrand"
         title="Bond Calculator"></iframe>
 </div>
