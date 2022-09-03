@@ -7,7 +7,7 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  // height: 70vh;
+  // height: 90vh;
   // width: 100vw;
   .intro-text {
     padding-top: 100px;
@@ -33,7 +33,7 @@ header.masthead {
 {
   header.masthead {
     .intro-text {
-      padding-top: 60px;
+      padding-top: 150px;
       // padding-bottom: 110px;
       .intro-lead-in {
         font-size: 40px;
@@ -44,11 +44,11 @@ header.masthead {
         @include serif-font;
       }
       .intro-heading {
-        font-size: 40px;
+        font-size: 45px;
         font-weight: 700;
         text-shadow: 2px 2px 2px rgb(70, 70, 70);
         line-height: 60px;
-        margin-bottom: 20px;
+        margin-bottom: 80px;
         @include heading-font;
       }
     }
@@ -73,7 +73,7 @@ header.masthead {
         font-weight: 700;
         text-shadow: 2px 2px 2px rgb(70, 70, 70);
         line-height: 60px;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
         @include heading-font;
       }
     }
@@ -83,7 +83,7 @@ header.masthead {
 @media(min-width:768px) {
   header.masthead {
     .intro-text {
-      padding-top: 15em;
+      padding-top: 150px;
       padding-bottom: 110px;
       .intro-lead-in {
         font-size: 40px;
@@ -105,8 +105,8 @@ header.masthead {
   }
 }
 
-p {
-  // margin-top: 90px;
-  margin-bottom: 1rem;
-  line-height: 1.75;
-}
+// p {
+//   margin-top: 90px;
+//   margin-bottom: 1rem;
+//   line-height: 1.75;
+// }
