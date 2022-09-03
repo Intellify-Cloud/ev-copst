@@ -83,7 +83,7 @@ header.masthead {
 @media(min-width:768px) {
   header.masthead {
     .intro-text {
-      padding-top: 150px;
+      padding-top: 15em;
       padding-bottom: 110px;
       .intro-lead-in {
         font-size: 40px;
@@ -106,7 +106,7 @@ header.masthead {
 }
 
 p {
-  margin-top: 90px;
+  // margin-top: 90px;
   margin-bottom: 1rem;
   line-height: 1.75;
 }

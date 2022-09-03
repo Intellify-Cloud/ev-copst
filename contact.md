@@ -14,15 +14,19 @@ background: grey
 
   <div class="col-md">
 		<!-- <p>Tel: <a href="tel:+27210232228"> 079 485 5355</a></p> -->
-		<p>Cell: <a href="tel:+27xxxxxxx">079 xxx xxxx</a></p>
-		<p>E-mail: <a href="mailto:xxxx@evogroup.co.za?subject=Mail from evo Website">chanelle.macey@evogroup.co.za</a></p>
+		<p>Call Grant: <a href="tel:+27826035414">082 603 5414</a></p>
+		<p>E-mail: <a href="mailto:grant.butler@evogroup.co.za?subject=Mail from evo Website">grant.butler@evogroup.co.za</a></p>
+<br>
+		<p>Call Andy: <a href="tel:+27826035414">082 603 5414</a></p>
+		<p>E-mail: <a href="mailto:grant.butler@evogroup.co.za?subject=Mail from evo Website">grant.butler@evogroup.co.za</a></p>
     </div>
 
     <div class="col-md">
-		<p>xxx Road</p>
-		<p>xxx</p>
-		<p>xxx</p>
-		<p>xxx</p>
+		<p>75 Starfish</p>
+		<p>Ocean Tides Residential Estate</p>
+		<p>Big Bay</p>
+		<p>Cape Town</p>
+		<p>7441</p>
     </div>
     
   </div>
