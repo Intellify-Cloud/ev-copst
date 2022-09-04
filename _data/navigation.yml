@@ -2,8 +2,8 @@ nav:
 #   - title: "Why Us"
 #     section: textblock
 
-  - title: "Services"
-    section: services
+  # - title: "Services"
+  #   section: services
     
   - title: "Team"
     section: team
