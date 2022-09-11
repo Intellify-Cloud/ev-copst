@@ -80,16 +80,16 @@ textblock:
     footer: "Our service is completely FREE, with no obligation."
     section: textblock
     list:
-      - title: "I help you complete one application, which I submit to all the banks."
-        image: "fa-university"
-      - title: "I apply to the banks, including your own bank, to get quotes."
-        image: "fa-file-invoice-dollar"
-      - title: "You can compare the quotes from each bank."
-        image: "fa-balance-scale"
-      - title: "I negotiate the best interest rates and deal on your behalf."
-        image: "fa-comments-dollar"
-      - title: "I can help you in securing a zero deposit bond if required."
-        image: "fa-user-shield"
+      - title: "We help you complete a single application, which we submit to all the banks."
+        image: "fas fa-check-square"
+      - title: "We apply with all the major banks, including your own bank, to get quotes."
+        image: "fas fa-check-square"
+      - title: "You then compare the quotes from each bank."
+        image: "fas fa-check-square"
+      - title: "We then negotiate the best interest rate and deal on your behalf."
+        image: "fas fa-check-square"
+      - title: "We assist you in securing a zero deposit bond if required."
+        image: "fas fa-check-square"
 
 portfolio:
     title: "Other Services"
@@ -133,6 +133,26 @@ clients:
         url: https://www.standardbank.co.za/
         logo: assets/img/clients/SBSA-bw.png
     
+suburbs:
+    title: Suburbs Services
+    section: suburbs
+    max-height: 120px
+    horizontal-scrolling: "Yes" #"yes/no"
+    image: "fas fa-check-square"
+    list:
+      - title: "Big Bay"
+      - title: "Blouberg Sands"
+      - title: "Bloubergrant"
+      - title: "Bloubergstrand"
+      - title: "Flamingo Vlei"
+      - title: "Parklands"
+      - title: "Parklands North"
+      - title: "Sandown"
+      - title: "Sunningdale"
+      - title: "Tableview"
+      - title: "West Beach"
+
+
 team:
     title: "THE TEAM"
     # text: "Lorem ipsum dolor sit amet consectetur."
