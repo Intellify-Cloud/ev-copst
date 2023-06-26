@@ -75,21 +75,20 @@ more-calculators:
           text: "Calculate"
 
 textblock:
-    title: "Why evo Copestone"
-    text: "For 20+ years, we has been helping families finance their homes in the Big Bay area and Cape Town."
-    footer: "Our service is completely FREE, with no obligation."
+    title: "Why Evo Copestone"
+    text: ""
+    footer: "THERE IS NO CHARGE TO YOU, THE CLIENT, FOR OUR SERVICE."
     section: textblock
     list:
-      - title: "We help you complete a single application, which we submit to all the banks."
-        image: "fas fa-check-square"
-      - title: "We apply with all the major banks, including your own bank, to get quotes."
-        image: "fas fa-check-square"
-      - title: "You then compare the quotes from each bank."
-        image: "fas fa-check-square"
-      - title: "We then negotiate the best interest rate and deal on your behalf."
-        image: "fas fa-check-square"
-      - title: "We assist you in securing a zero deposit bond if required."
-        image: "fas fa-check-square"
+      - title: "We will pre-qualify you prior to you starting your search for a home."
+        # image: "fas fa-check-square"
+      - title: "All applications are expertly prepared and submitted on your behalf, ensuring you a hassle-free process."
+        # image: "fas fa-check-square"
+      - title: "Our experienced Home Loans Consultants will liaise with all major and niche banks to ensure that we negotiate the best interest for you."
+        # image: "fas fa-check-square"
+      - title: "You are kept informed of the progress every step of the way."
+        # image: "fas fa-check-square"
+
 
 portfolio:
     title: "Other Services"
