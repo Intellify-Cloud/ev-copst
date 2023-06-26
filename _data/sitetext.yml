@@ -144,9 +144,9 @@ clients:
       - title: "Rand Merchant Bank"
         url: https://www.rmb.co.za
         logo: assets/img/clients/rmb-img.png
-      - title: "Sentianl Homes"
+      - title: "Sentinal Homes"
         url: https://www.sentinelhomes.co.za/
-        logo: assets/img/clients/sentinal-homes
+        logo: assets/img/clients/sentinal-homes.png
       - title: "Nedbank"
         url: https://www.nedbank.co.za
         logo: assets/img/clients/nedbank-bw.png
