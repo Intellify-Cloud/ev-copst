@@ -23,8 +23,13 @@ services:
         desc: "I am searching property portals and visiting show houses but have a few questions."
         icon: fas fa-search
         link: 
-          url: mailto:grant.butler@evogroup.co.za,andy.breach@evogroup.co.za?subject=Mail from evo Copestone website
-          text: "Email Grant & Andy"
+          # url: mailto:grant.butler@evogroup.co.za,andy.breach@evogroup.co.za?subject=Mail from evo Copestone website
+          # text: "Email Grant & Andy"
+          url: mailto:grant.butler@evogroup.co.za?subject=Mail from evo Copestone website
+          text: "Email Grant"
+          url: mailto:andy.breach@evogroup.co.za?subject=Mail from evo Copestone website
+          text: "Email Andy"
+
 
 articles:
     title: "Articles"
