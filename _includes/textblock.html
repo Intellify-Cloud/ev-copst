@@ -32,9 +32,11 @@
           {% endfor %}
         </div>
         <br>
-        {% if site.data.sitetext.textblock.footer %}<div class="text-center w-100">
+        {% if site.data.sitetext.textblock.footer %}
+        <div class="text-center w-100">
           <strong>{{ site.data.sitetext.textblock.footer | markdownify }}</strong>
-        </div>{% endif %}
+        </div>
+        {% endif %}
       </div>
     </div>
     <div class="col-lg-1 text-center"></div>
