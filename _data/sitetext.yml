@@ -11,8 +11,8 @@ services:
         desc: "We submit Home Loan Applications to up to seven banks negotiating the best interest rates and deal in the market at any given time."
         icon: fas fa-home
         link: 
-          url: mailto:grant.butler@evogroup.co.za?subject=Mail from evo Copestone website
-          text: "Email Me"
+          url: mailto:grant.butler@evogroup.co.za,andy.breach@evogroup.co.za?subject=Mail from evo Copestone website
+          text: "Email Grant & Andy"
       - title: "Pre-qualification"
         desc: "I help you check your credit record, income and expenses to give you an accurate assessment of what you can afford. You will then know how likely you are to qualify for a bond."
         icon: fas fa-tasks       
@@ -23,8 +23,8 @@ services:
         desc: "I am searching property portals and visiting show houses but have a few questions."
         icon: fas fa-search
         link: 
-          url: mailto:grant.butler@evogroup.co.za?subject=Mail from evo Copestone website
-          text: "Email Me"
+          url: mailto:grant.butler@evogroup.co.za,andy.breach@evogroup.co.za?subject=Mail from evo Copestone website
+          text: "Email Grant & Andy"
 
 articles:
     title: "Articles"
@@ -99,11 +99,29 @@ portfolio:
     
 about:
     title: "About Us"
-    text2: "evo Copestone is the brainchild of Grant Butler, who after many years in the property and home loan industry, sought a model that would both richly reward our consultants and at the same time provide a service to our clients (Estate Agents, Buyers, Developers, Banks and Attorneys) that is seamless and service “way above the rest”.
-    <br><br>
-    Grant Butler has used his 30 years of home loan experience to create a phenomenal team of consultants where World Class service is a minimum standard. The evo Copestone team excels at customer service, be it banks, agents, buyers or attorneys.
-    <br><br>
-    Besides offering world-class service to all the stake holders (Estate Agents, Buyers, Developers, Banks and Attorneys) in the home loan industry, evo Copestone has a unique admin outsourcing model.  We have dedicated admin resources at our disposal who ensure that our applications are sent seamlessly to multiple banks thereby ensuring you the best possible deal. evo Copestone’ s seamless processing and exceptional service is free to you. Together with evo Copestone, the dream of owning your own home becomes a reality."
+    text2: "EvoCopestone is the brainchild of Grant Butler, who after many years in the property and home loan
+            industry, sought a model that would both richly reward our consultants and at the same time provide a
+            service to our clients (Estate Agents, Buyers, Developers, Banks and Attorneys) that is seamless and
+            service “way above the rest”. 
+            
+            <br><br>
+            
+            Grant Butler has used his 30 years of home loan experience to create a phenomenal team of consultants
+            where World Class service is a minimum standard. The evo Copestone team excels at customer service, be it banks, agents, buyers or attorneys.
+            
+            <br><br>
+
+            Besides offering world-class service to all the stake holders (Estate Agents, Buyers, Developers, Banks and
+            Attorneys) in the home loan industry, EvoCopestone has a unique admin outsourcing model. We have
+            dedicated admin resources at our disposal who ensure that our applications are sent seamlessly to multiple banks thereby ensuring you the best possible deal.
+            
+            <br><br>
+            
+            EvoCopestone’ s seamless processing and exceptional service is free to you. Together with EvoCopestone, the dream of owning your own home becomes a reality.
+
+            <br><br>
+
+            GETTING YOU A HOME LOAN IS NOT ONLY OUR PASSION....IT’S OUR OBSESSION!"
     
 clients:
     title: Bank Partners
@@ -121,11 +139,14 @@ clients:
         url: https://www.investec.co.za/
         logo: assets/img/clients/investec-bw.png
       - title: "Ithala Bank"
-        url: http://www.ithala.co.za/
-        logo: assets/img/clients/ithala-bank.png
+        url: https://www.oldmutual.co.za/
+        logo: assets/img/clients/old-mutual.png
       - title: "Rand Merchant Bank"
         url: https://www.rmb.co.za
         logo: assets/img/clients/rmb-img.png
+      - title: "Sentianl Homes"
+        url: https://www.sentinelhomes.co.za/
+        logo: assets/img/clients/sentinal-homes
       - title: "Nedbank"
         url: https://www.nedbank.co.za
         logo: assets/img/clients/nedbank-bw.png

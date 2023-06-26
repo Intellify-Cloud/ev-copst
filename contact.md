@@ -18,8 +18,8 @@ background: grey
 		<p>E-mail: <a href="mailto:grant.butler@evogroup.co.za?subject=Mail from evo Website">grant.butler@evogroup.co.za</a></p>
 		<br>
 		
-		<p>Call Andy: <a href="tel:+27826035414">082 603 5414</a></p>
-		<p>E-mail: <a href="mailto:grant.butler@evogroup.co.za?subject=Mail from evo Website">grant.butler@evogroup.co.za</a></p>
+		<p>Call Andy: <a href="tel:+27839688712">083 968 8712</a></p>
+		<p>E-mail: <a href="mailto:andy.breach@evogroup.co.za?subject=Mail from evo Website">andy.breach@evogroup.co.za</a></p>
 		<br>
     </div>
 		
