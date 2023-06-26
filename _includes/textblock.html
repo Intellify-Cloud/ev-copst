@@ -66,8 +66,9 @@
       </div>
       {% endfor %}
     </div>
-    {% if site.data.sitetext.textblock.footer %}<div class="text-muted text-center w-100">
-      {{ site.data.sitetext.textblock.footer | markdownify }}</div>{% endif %}
+    {% if site.data.sitetext.textblock.footer %}<div class="text-center w-100">
+      <strong>{{ site.data.sitetext.textblock.footer | markdownify }}</strong></div>{% endif %}
+    </div>
   </div>
   <div class="col-lg-1 text-center"></div>
 </div>
