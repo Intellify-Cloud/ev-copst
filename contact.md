@@ -1,7 +1,7 @@
 ---
 layout: page
 title: evo Copestone
-background: grey
+background: white
 ---
 <div class="col-lg-12 text-center">
 	<h1 class="section-heading text-uppercase">Contact evo Copestone</h1>
@@ -35,6 +35,6 @@ background: grey
 
 </div>
 
-{% include team.html %}
+
 
 
