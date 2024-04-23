@@ -2,6 +2,12 @@ header:
     title: 
     text: Need a Homeloan
 
+expert:
+    title: "Get pre-approved for a home loan today"
+    text: "Whether you're looking to buy or ready to put in an offer, we recommend you get pre-approved. Do it yourself with our online Bond Indicator tool or get expertly verified by an expert before submitting your offer."
+    button 1 text: "Do it Yourself"
+    button 2 text: "Speak to an Expert"
+
 services:
     title: "Services We Offer"
     text: "We get you the most competitive rate by sourcing quotes from the banks for you to compare."
@@ -153,26 +159,6 @@ clients:
         url: https://www.standardbank.co.za/
         logo: assets/img/clients/SBSA-bw.png
     
-suburbs:
-    title: Suburbs Services
-    section: suburbs
-    max-height: 120px
-    horizontal-scrolling: "Yes" #"yes/no"
-    image: "fas fa-check-square"
-    list:
-      - title: "Big Bay"
-      - title: "Blouberg Sands"
-      - title: "Bloubergrant"
-      - title: "Bloubergstrand"
-      - title: "Flamingo Vlei"
-      - title: "Parklands"
-      - title: "Parklands North"
-      - title: "Sandown"
-      - title: "Sunningdale"
-      - title: "Tableview"
-      - title: "West Beach"
-
-
 team:
     title: "THE TEAM"
     # text: "Lorem ipsum dolor sit amet consectetur."

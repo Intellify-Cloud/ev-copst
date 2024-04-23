@@ -15,7 +15,7 @@ $spacer:1rem;
 $border-width:3px;
 $border-radius:0;
 $enable-rounded: false;
-$enable-shadows:false;
+$enable-shadows:true;
 $enable-gradients:false;
 
 @import "bootstrap/scss/bootstrap";
@@ -37,6 +37,9 @@ $enable-gradients:false;
 @import "layout/footer.scss";
 @import "layout/clients.scss";
 @import "layout/textblock.scss";
+@import "layout/calculators.scss";
+
+
 
 body {
     overflow-x: hidden;
