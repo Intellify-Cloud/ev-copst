@@ -28,6 +28,8 @@
 
   &:active {
     transform: scale(0.95);
+    background-color: $primary;
+    color: $white;
   }
 }
 
