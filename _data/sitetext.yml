@@ -139,16 +139,16 @@ clients:
         logo: assets/img/clients/absa-bw.png
       - title: "FNB"
         url: https://www.fnb.co.za/
-        logo: assets/img/clients/fnb-bw.png
+        logo: assets/img/clients/fnb-n.png
       - title: "Investec"
         url: https://www.investec.co.za/
-        logo: assets/img/clients/investec-bw.png
+        logo: assets/img/clients/investec.png
       - title: "Ithala Bank"
         url: https://www.oldmutual.co.za/
         logo: assets/img/clients/old-mutual.png
       - title: "Rand Merchant Bank"
         url: https://www.rmb.co.za
-        logo: assets/img/clients/rmb-img.png
+        logo: assets/img/clients/rmb-img-n.png
       - title: "Sentinal Homes"
         url: https://www.sentinelhomes.co.za/
         logo: assets/img/clients/sentinal-homes.png
