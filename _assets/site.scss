@@ -29,6 +29,7 @@ $enable-gradients:false;
 @import "components/navbar.scss";
 @import "components/client-scroll.scss";
 
+@import "layout/expert";
 @import "layout/masthead.scss";
 @import "layout/services.scss";
 @import "layout/portfolio.scss";
@@ -38,6 +39,7 @@ $enable-gradients:false;
 @import "layout/clients.scss";
 @import "layout/textblock.scss";
 @import "layout/calculators.scss";
+
 
 
 body {

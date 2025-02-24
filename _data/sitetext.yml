@@ -168,7 +168,7 @@ team:
     people:
       - name: "Grant Butler"
         role: "Managing Director"
-        image: assets/img/team/Grant-Butler-evo-Copestone-Homeloans.jpg
+        image: assets/img/team/Grant-Butler-evo-Copestone.jpg
         social:
           - url: tel:082 603 5414
             icon: fas fa-phone
@@ -181,7 +181,7 @@ team:
 
       - name: "Andy Breach"
         role: "Operations Director"
-        image: assets/img/team/Andy-Breach-evo-Copestone-Homeloans.jpg
+        image: assets/img/team/Andy-Breach-evo-Copestone.jpg
         social:
           - url: tel:083 968 8712
             icon: fas fa-phone
