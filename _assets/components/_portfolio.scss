@@ -1,0 +1,36 @@
+.portfolio {
+  &__item {
+    margin-bottom: $space-5;
+  }
+
+  &__link {
+    position: relative;
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  &__overlay {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    background: rgba($primary, 0.9);
+    color: $color-surface;
+    opacity: 0;
+    transition: opacity $transition-base;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  &__caption {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: $space-4;
+    background: $color-surface;
+    color: $color-text;
+    text-align: center;
+  }
+}

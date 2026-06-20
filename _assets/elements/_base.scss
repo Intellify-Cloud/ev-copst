@@ -1,0 +1,70 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  background: $color-page;
+  color: $color-text;
+  font-family: $font-family-body;
+  font-size: $font-size-base;
+  line-height: $line-height-body;
+  -webkit-tap-highlight-color: rgba($primary, 0.2);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.618em;
+  color: $color-text;
+  font-family: $font-family-heading;
+  font-weight: 700;
+  line-height: $line-height-heading;
+}
+
+p {
+  margin-top: 0;
+  font-size: $font-size-paragraph;
+  line-height: $line-height-body;
+}
+
+a {
+  color: $primary;
+  transition: color $transition-base;
+
+  &:hover {
+    color: darken($primary, 10%);
+  }
+
+  &:focus-visible {
+    @include focus-ring;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+::selection {
+  background: $primary;
+  color: $color-surface;
+  text-shadow: none;
+}
+
+.text-primary {
+  color: $primary !important;
+}
+
+.bg-newgray {
+  background-color: $color-surface-muted;
+}
+
+.post {
+  max-width: 750px;
+  margin-top: 150px;
+}

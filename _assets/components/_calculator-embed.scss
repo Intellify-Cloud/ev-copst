@@ -1,0 +1,43 @@
+.calculator-embed {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  border: 0;
+
+  &--transfer {
+    min-height: 190vh;
+  }
+
+  &--amortisation {
+    min-height: 90vh;
+  }
+
+  &--deposit {
+    min-height: 120vh;
+  }
+
+  @media (max-width: 768px) {
+    min-height: 120vh;
+
+    &--transfer {
+      min-height: 270vh;
+    }
+
+    &--deposit {
+      min-height: 130vh;
+    }
+  }
+
+  @media (max-width: 440px) {
+    min-height: 150vh;
+
+    &--transfer {
+      min-height: 270vh;
+    }
+
+    &--deposit {
+      min-height: 175vh;
+    }
+  }
+}
+

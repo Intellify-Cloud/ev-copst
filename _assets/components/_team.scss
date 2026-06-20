@@ -1,0 +1,63 @@
+.team {
+  &__grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $space-6;
+    justify-content: center;
+  }
+
+  &__member {
+    @include card-surface;
+    width: min(100%, 430px);
+    padding: clamp(2rem, 6vw, 5.5rem);
+    text-align: center;
+    transition: transform $transition-base;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+  }
+
+  &__photo {
+    width: 210px;
+    height: 210px;
+    border: 10px solid rgba($black, 0.1);
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  &__name {
+    margin-top: $space-3;
+    font-size: 1.25rem;
+  }
+
+  &__role {
+    color: $color-text-muted;
+  }
+
+  &__socials {
+    display: flex;
+    gap: $space-2;
+    justify-content: center;
+    margin: $space-3 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__social-link {
+    display: inline-flex;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: $primary;
+    color: $color-surface;
+
+    &:hover {
+      background: darken($primary, 10%);
+      color: $color-surface;
+    }
+  }
+}
+

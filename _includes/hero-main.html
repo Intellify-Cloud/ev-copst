@@ -1,0 +1,16 @@
+<!-- Hero -->
+  <header class="hero">
+    <div class="container">
+      <div class="hero__content">
+        {%- if site.data.sitetext.header.title -%}
+        <div class="hero__eyebrow">{{ site.data.sitetext.header.title | markdownify }}</div>
+        {%- endif -%}
+        {%- if site.data.sitetext.header.text -%}
+        <div class="hero__title">{{ site.data.sitetext.header.text | markdownify }}</div>
+        {%- endif -%}
+        <!-- <a class="btn btn-primary btn-xl shadow text-uppercase js-scroll-trigger"
+          href="https://prequalify.evocopestone.co.za" target="_blank">Get Prequalified Now!</a> -->
+      </div>
+    </div>
+  </header>
+  <!-- End Hero -->

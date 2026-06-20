@@ -1,24 +1,24 @@
 <!-- Portfolio Grid -->
-<section class="bg-dark page-section" id="{{ site.data.sitetext.portfolio.section | default: "portfolio" }}">
+<section class="section section--dark portfolio" id="{{ site.data.sitetext.portfolio.section | default: "portfolio" }}">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.portfolio.title | markdownify | default: "Portfolio" }}</h2>
-        <h3 class="section-subheading text-muted">{{ site.data.sitetext.portfolio.text | markdownify }}</h3>
+        <h2 class="section__title">{{ site.data.sitetext.portfolio.title | markdownify | default: "Portfolio" }}</h2>
+        <div class="section__intro">{{ site.data.sitetext.portfolio.text | markdownify }}</div>
       </div>
     </div>
     <div class="row">
 	{% for project in site.portfolio %}
-      <div class="col-md-4 col-sm-6 portfolio-item">
-        <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
-          <div class="portfolio-hover">
-            <div class="portfolio-hover-content">
+      <div class="portfolio__item col-md-4 col-sm-6">
+        <a class="portfolio__link" data-toggle="modal" href="#p{{ forloop.index }}">
+          <div class="portfolio__overlay">
+            <div class="portfolio__overlay-content">
               <i class="{{ site.data.style.portfolio-icon | default: "fas fa-plus fa-3x" }}"></i>
             </div>
           </div>
           <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="">
         </a>
-        <div class="portfolio-caption">
+        <div class="portfolio__caption">
           <h4>{{ project.caption.title }}</h4>
           <p class="text-muted">{{ project.caption.subtitle }}</p>
         </div>

@@ -1,61 +1,27 @@
 @charset "utf-8";
+
+// 1. Settings: design tokens only.
 @import "bootstrap/scss/functions";
+@import "settings/tokens";
 @import "bootstrap/scss/variables";
 @import "bootstrap/scss/mixins";
 
-$header-image: "./img/evo-copestone-home-loans-hero.jpg";
-$contact-image: "./img/contact.png";
-
-$primary: #00ACC8;
-$white: rgb(255, 255, 255);
-$black: #000;
-$input-height:calc(#{$input-height-inner} + #{$input-height-border});
-
-$spacer:1rem;
-$border-width:3px;
-$border-radius:0;
-$enable-rounded: false;
-$enable-shadows:true;
-$enable-gradients:false;
-
+// 2. Vendor foundation. Bootstrap is intentionally imported once.
 @import "bootstrap/scss/bootstrap";
-@import "bootstrap";
 
-@import "base/variables.scss";
-@import "base/mixins.scss";
-@import "base/page.scss";
-
-@import "components/buttons.scss";
-@import "components/navbar.scss";
-@import "components/client-scroll.scss";
-
-@import "layout/expert";
-@import "layout/masthead.scss";
-@import "layout/services.scss";
-@import "layout/portfolio.scss";
-@import "layout/team.scss";
-@import "layout/contact.scss";
-@import "layout/footer.scss";
-@import "layout/clients.scss";
-@import "layout/textblock.scss";
-@import "layout/calculators.scss";
-
-
-
-body {
-    overflow-x: hidden;
-    // font-family: "Roboto Slab","Roboto Condensed",sans-serif,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-family: 'Comfortaa', cursive;
-    webkit-tap-highlight-color: $primary;
-    
-}
-
-.bg-newgray {
-    background-color: #f0f0f0;
-}
-
-.post {
-    max-width: 750px;
-    margin-top: 150px;
-}
-
+// 3. Tools, elements, layout objects, and BEM components.
+@import "tools/mixins";
+@import "elements/base";
+@import "objects/section";
+@import "components/button";
+@import "components/site-header";
+@import "components/hero-main";
+@import "components/content-block";
+@import "components/card-grid";
+@import "components/brand-list";
+@import "components/team";
+@import "components/testimonials";
+@import "components/portfolio";
+@import "components/contact-form";
+@import "components/calculator-embed";
+@import "components/site-footer";

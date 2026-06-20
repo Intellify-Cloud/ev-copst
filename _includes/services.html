@@ -1,38 +1,38 @@
 <!-- Services -->
-  <section class="bg-light page-section" id="{{ site.data.sitetext.services.section | default: "services" }}">
+  <section class="section section--muted" id="{{ site.data.sitetext.services.section | default: "services" }}">
     <div class="container">
 	
       <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">{{ site.data.sitetext.services.title | default: "Services We Offer" }}</h2>
+        <div class="section__header">
+          <h2 class="section__title">{{ site.data.sitetext.services.title | default: "Services We Offer" }}</h2>
 
           {% if site.data.sitetext.services.text %}
           
-		  <h3 class="section-subheading text-muted">{{ site.data.sitetext.services.text }}</h3>
+		  <p class="section__intro">{{ site.data.sitetext.services.text }}</p>
 		  {% endif %}
         </div>
       </div>
 	  
-      <div class="card-deck services">
+      <div class="card-grid">
         
 	  {% for service in site.data.sitetext.services.list %}
-        <div class="card">
-          <div class="card-body text-center">
+        <article class="card-grid__item">
+          <div class="card-grid__body">
             <span class="fa-stack fa-3x">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="{{ service.icon | default: "" }} fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="card-title service-heading">{{ service.title | markdownify }}</h4>
+            <h3 class="card-grid__title">{{ service.title | markdownify | strip_html | strip }}</h3>
             {% if service.desc %}
-            <div class="text-muted">{{ service.desc | markdownify }}</div>
+            <div class="card-grid__text">{{ service.desc | markdownify }}</div>
             {% endif %}
           </div>
           {% if service.link %}
-          <div class="card-footer text-center">
-            <a href="{{ service.link.url }}" class="btn btn-outline-primary btn-xl text-uppercase shadow" >{{ service.link.text }}</a>
+          <div class="card-grid__footer">
+            <a href="{{ service.link.url }}" class="button button--outline button--large shadow">{{ service.link.text }}</a>
           </div>
           {% endif %}
-        </div>
+        </article>
 	  {% endfor %}
       </div>
 	  

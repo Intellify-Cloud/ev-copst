@@ -1,0 +1,48 @@
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
+  gap: $space-4;
+
+  &__item {
+    @include card-surface;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: $color-text;
+    text-align: center;
+    transition:
+      box-shadow $transition-base,
+      transform $transition-base;
+
+    &:hover {
+      box-shadow: $shadow-card-hover;
+      transform: translateY(-5px);
+    }
+  }
+
+  &__body {
+    flex: 1;
+    padding: $space-5;
+  }
+
+  &__icon {
+    margin-bottom: $space-3;
+    color: $primary;
+    font-size: 3rem;
+  }
+
+  &__title {
+    margin: $space-3 0;
+    font-size: 1.35rem;
+    font-weight: 700;
+  }
+
+  &__text {
+    color: $color-text-muted;
+  }
+
+  &__footer {
+    padding: 0 $space-3 $space-4;
+  }
+}
+

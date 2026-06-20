@@ -1,0 +1,26 @@
+.content-block {
+  &__body {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  &__item {
+    padding: $space-2;
+    color: $color-text;
+    line-height: 2;
+    text-align: center;
+  }
+
+  &__statement {
+    color: $primary;
+    font-weight: 700;
+  }
+
+  &__actions {
+    display: flex;
+    justify-content: center;
+    margin-top: $space-5;
+  }
+}
+

@@ -1,6 +1,6 @@
 header:
     title: 
-    text: Need a Homeloan
+    text: 
 
 expert:
     title: "Get pre-approved for a home loan today"
@@ -17,7 +17,7 @@ services:
         desc: "We submit Home Loan Applications to up to seven banks negotiating the best interest rates and deal in the market at any given time."
         icon: fas fa-home
         link: 
-          url: mailto:grant.butler@evogroup.co.za ; andy.breach@evogroup.co.za?subject=Mail from evo Copestone website
+          url: mailto:grant.butler@evogroup.co.za,andy.breach@evogroup.co.za?subject=Mail%20from%20evo%20Copestone%20website
           text: "Email Grant & Andy"
       - title: "Pre-qualification"
         desc: "I help you check your credit record, income and expenses to give you an accurate assessment of what you can afford. You will then know how likely you are to qualify for a bond."
@@ -29,7 +29,7 @@ services:
         desc: "I am searching property portals and visiting show houses but have a few questions."
         icon: fas fa-search
         link: 
-          url: mailto:grant.butler@evogroup.co.za ; andy.breach@evogroup.co.za?subject=Mail from evo Copestone website
+          url: mailto:grant.butler@evogroup.co.za,andy.breach@evogroup.co.za?subject=Mail%20from%20evo%20Copestone%20website
           text: "Email Grant & Andy"
 
 
@@ -130,34 +130,31 @@ about:
     
 clients:
     title: Bank Partners
+    sub-title: "We work with all the major banks to ensure you get the best deal."
     section: clients
-    max-height: 120px
     horizontal-scrolling: "" #"yes/no"
     list:
       - title: "ABSA"
         url: https://www.absa.co.za
-        logo: assets/img/clients/absa-bw.png
-      - title: "FNB"
-        url: https://www.fnb.co.za/
-        logo: assets/img/clients/fnb-n.png
-      - title: "Investec"
-        url: https://www.investec.co.za/
-        logo: assets/img/clients/investec.png
-      - title: "Ithala Bank"
-        url: https://www.ithala.co.za/
-        logo: assets/img/clients/ithala-bank.png
-      - title: "Rand Merchant Bank"
-        url: https://www.rmb.co.za
-        logo: assets/img/clients/rmb-img-n.png
-      - title: "Sentinal Homes"
-        url: https://www.sentinelhomes.co.za/
-        logo: assets/img/clients/sentinal-homes.png
-      - title: "Nedbank"
-        url: https://www.nedbank.co.za
-        logo: assets/img/clients/nedbank-bw.png
+        logo: assets/img/clients/ABSA_Logo.png
       - title: "Standard Bank"
         url: https://www.standardbank.co.za/
-        logo: assets/img/clients/SBSA-bw.png
+        logo: assets/img/clients/Standard-Bank-Logo.png
+      - title: "Nedbank"
+        url: https://www.nedbank.co.za
+        logo: assets/img/clients/Nedbank-Logo.png
+      - title: "Investec"
+        url: https://www.investec.co.za/
+        logo: assets/img/clients/Investec_Logo.png
+      - title: "First National Bank"
+        url: https://www.fnb.co.za/
+        logo: assets/img/clients/First_National_Bank_Logo.png
+      - title: "Sentinal Homes"
+        url: https://www.sentinelhomes.co.za/
+        logo: assets/img/clients/Sentinal-Homes-Logo.png
+      - title: "Rand Merchant Bank"
+        url: https://www.rmb.co.za
+        logo: assets/img/clients/RMB_Logo.png
     
 team:
     title: "THE TEAM"
@@ -211,21 +208,45 @@ testimonials:
 contact:
     title: "Contact Us"
     text: ""
-    section: team
+    section: contact
     
 footer:
     legal: "Powered by evo Home Loans"
     social:
-      # - url: https://twitter.com
-      #   icon: "fab fa-twitter"  
       - url: https://www.facebook.com/EvoCopestone/
         icon: "fab fa-facebook-f"
-      # - url: https://linkedin.com
-      #   icon: "fab fa-linkedin-in"
-      # - url: https://github.com/raviriley/agency-jekyll-theme
-      #   icon: "fab fa-github"
-      # - url: https://instagram.com
-      #   icon: "fab fa-instagram"
+        name: "Facebook"
+    columns:
+      - title: "Services"
+        links:
+          - name: "Bond Origination"
+            icon: "fas fa-home"
+            url: "#services"
+          - name: "Pre-qualification"
+            icon: "fas fa-tasks"
+            url: "#services"
+          - name: "Home Loan Calculators"
+            icon: "fas fa-calculator"
+            url: "#calculators"
+      - title: "Company"
+        links:
+          - name: "About Us"
+            icon: "fas fa-users"
+            url: "#about"
+          - name: "Our Team"
+            icon: "fas fa-id-badge"
+            url: "#team"
+          - name: "Contact"
+            icon: "fas fa-envelope"
+            url: "/contact"
+      - title: "Legal"
+        links:
+          - name: "Privacy Statement"
+            icon: "fas fa-shield-alt"
+            url: "/privacy-statement"
+          - name: "Data Sharing"
+            icon: "fas fa-handshake"
+            url: "/data-sharing-agreement"
 
 
 # {{ site.data.sitetext.ex.ex | markdownify | default: example }}

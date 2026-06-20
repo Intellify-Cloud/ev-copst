@@ -1,33 +1,33 @@
 <!-- Articles -->
-  <section class="page-section" id="{{ site.data.sitetext.articles.section | default: "services" }}">
+  <section class="section" id="{{ site.data.sitetext.articles.section | default: "articles" }}">
     <div class="container">
 	
       <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">{{ site.data.sitetext.articles.title | default: "Articles" }}</h2>
+        <div class="section__header">
+          <h2 class="section__title">{{ site.data.sitetext.articles.title | default: "Articles" }}</h2>
 
           {% if site.data.sitetext.articles.text %}
           
-		  <h3 class="section-subheading text-muted">{{ site.data.sitetext.articles.text }}</h3>
+		  <p class="section__intro">{{ site.data.sitetext.articles.text }}</p>
 		  {% endif %}
         </div>
       </div>
 	  
-      <div class="card-deck articles">
+      <div class="card-grid">
 	  {% for post in site.posts limit:3 %}
 
-        <div class="card">
-          <div class="card-body text-center">
+        <article class="card-grid__item">
+          <div class="card-grid__body">
             <img class="card-img-top" src="{{ post.image }}" alt="Card image cap">
-            <h4 class="card-title service-heading">{{ post.title | markdownify }}</h4>
-            <div class="text-muted">{{ post.excerpt | markdownify }}</div>
+            <h3 class="card-grid__title">{{ post.title | markdownify | strip_html | strip }}</h3>
+            <div class="card-grid__text">{{ post.excerpt | markdownify }}</div>
             {{ post.category}}
           </div>
-          <div class="card-footer text-center">
-            <a href="{{ post.url }}" class="btn btn-primary" role="button">Read more</a>
+          <div class="card-grid__footer">
+            <a href="{{ post.url }}" class="button button--primary" role="button">Read more</a>
           </div>
    
-        </div>
+        </article>
 	  {% endfor %}
       </div>
 	  

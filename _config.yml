@@ -2,11 +2,13 @@ baseurl: ""
 
 title      : evo Copestone - Bond Origination & Home Loans Expert in Cape Town
 email      : grant.butler@evogroup.co.za
-description: Contact Grant Butler from evo Copestone to help you with your home loan. We are seasoned property professionals and specialize in mortgages and property finance with years of experience. Our experience ranges from sales to finance and out focus is bonds, homeloans and origination. evo Copestone is committed to excellent client service, building long-term relationships.
-author     : Eben Roux / Pieter Oosthuizen
+description: Contact Grant or Andy from evo Copestone to help you with your home loan. We are seasoned property professionals and specialize in mortgages and property finance with years of experience. Our experience ranges from sales to finance and out focus is bonds, homeloans and origination. evo Copestone is committed to excellent client service, building long-term relationships.
+author     : P Oosthuizen
 
 analytics:
-  google: G-XXX
+  tag_manager: GTM-M99W7LHF
+  # Set this to a real GA4 measurement ID (for example, G-ABC123) to enable analytics.
+  google:
 
 collections:
   portfolio:
@@ -20,7 +22,7 @@ webserver_headers:
     - GET, OPTIONS, HEAD
 
 logo:
-  path: /assets/evo copestone logo.png
+  path: /assets/img/logo/evo copestone logo.png
 
 exclude: [node_modules,webpack-config.js,package.json,package-lock.json]
 

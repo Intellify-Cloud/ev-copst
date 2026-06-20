@@ -1,0 +1,20 @@
+@mixin heading-font {
+  font-family: $font-family-heading;
+}
+
+@mixin body-font {
+  font-family: $font-family-body;
+}
+
+@mixin focus-ring {
+  outline: 3px solid rgba($primary, 0.3);
+  outline-offset: 2px;
+}
+
+@mixin card-surface {
+  background: $color-surface;
+  border: 0;
+  border-radius: $radius-md;
+  box-shadow: $shadow-card;
+}
+

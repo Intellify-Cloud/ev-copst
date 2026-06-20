@@ -1,0 +1,53 @@
+.section {
+  padding: clamp(4rem, 6vw, 6rem) 0;
+
+  &--surface {
+    background: $color-surface;
+  }
+
+  &--muted {
+    background: $color-surface-muted;
+  }
+
+  &--dark {
+    background: $color-text;
+    color: $color-surface;
+
+    h2,
+    h3,
+    h4 {
+      color: inherit;
+    }
+  }
+
+  &__header {
+    max-width: 850px;
+    margin: 0 auto $space-6;
+    text-align: center;
+  }
+
+  &__title {
+    margin-bottom: $space-3;
+    font-size: clamp(2rem, 4vw, 3rem);
+    text-transform: uppercase;
+  }
+
+  &__intro {
+    margin-bottom: 0;
+    color: $color-text-muted;
+    font-size: $font-size-paragraph;
+  }
+
+  &__footer {
+    margin-top: $space-5;
+    text-align: center;
+  }
+}
+
+.page-shell {
+  padding-top: 150px;
+
+  @media (max-width: 991px) {
+    padding-top: 100px;
+  }
+}

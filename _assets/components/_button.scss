@@ -1,0 +1,64 @@
+.button,
+.btn {
+  display: inline-block;
+  margin: $space-2;
+  padding: 12px 24px;
+  border: 2px solid transparent;
+  border-radius: $radius-pill;
+  font-family: $font-family-action;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition:
+    background-color $transition-base,
+    border-color $transition-base,
+    color $transition-base,
+    transform $transition-fast;
+
+  &:hover {
+    text-decoration: none;
+    transform: translateY(-2px);
+  }
+
+  &:active {
+    transform: translateY(1px);
+  }
+
+  &:focus-visible {
+    @include focus-ring;
+  }
+
+  &--large,
+  &.btn-xl {
+    padding: 16px 32px;
+    font-size: 1.125rem;
+  }
+
+  &--primary,
+  &.btn-primary {
+    background: $primary;
+    color: $color-surface;
+
+    &:hover {
+      background: darken($primary, 10%);
+      color: $color-surface;
+    }
+  }
+
+  &--outline,
+  &.btn-outline-primary {
+    border-color: $primary;
+    background: $color-surface;
+    color: $primary;
+
+    &:hover {
+      border-color: $primary;
+      background: $primary;
+      color: $color-surface;
+    }
+  }
+}
+

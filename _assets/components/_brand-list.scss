@@ -1,0 +1,64 @@
+.brand-list-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.brand-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: $space-5;
+  align-items: center;
+
+  &--marquee {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: $space-7;
+    animation: marquee 20s linear infinite;
+
+    &:hover {
+      animation-play-state: paused;
+    }
+
+    .brand-list__item {
+      flex: 0 0 auto;
+    }
+  }
+
+  @keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-50% + 50vw)); }
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__image {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    max-height: 45px;
+    margin: 0 auto;
+    object-fit: contain;
+  }
+
+  &__fade {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 48px;
+    pointer-events: none;
+
+    &--start {
+      left: 0;
+      background: linear-gradient(to right, $color-surface, transparent);
+    }
+
+    &--end {
+      right: 0;
+      background: linear-gradient(to left, $color-surface, transparent);
+    }
+  }
+}

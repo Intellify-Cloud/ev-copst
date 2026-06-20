@@ -1,4 +1,16 @@
 <head>
+{% if site.analytics.tag_manager %}
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','{{ site.analytics.tag_manager }}');
+  </script>
+  <!-- End Google Tag Manager -->
+{% endif %}
+
 {% if site.analytics.google %}
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google }}"></script>
@@ -45,14 +57,4 @@
   <script src="{{ site.baseurl | append: "/assets/bundle.js" | relative_url }}"></script>
   <script lang="js">var baseurl = "{{ "" | relative_url }}";</script>
 
-  <!-- Page container change top padding when nav shrinks -->
-  {% if page.layout == "page" %}
-  <style>
-    #pagecontainer {padding-top: 150px;}
-	@media only screen and (max-width: 991px) {
-	  #pagecontainer {padding-top: 100px;}
-	}
-  </style>
-  {% endif %}
-  
 </head>

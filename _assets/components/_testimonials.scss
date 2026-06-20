@@ -1,0 +1,18 @@
+.testimonials {
+  &__item {
+    @include card-surface;
+    height: 100%;
+    padding: $space-5;
+    text-align: center;
+  }
+
+  &__quote {
+    color: $color-text-muted;
+    font-style: italic;
+  }
+
+  &__name {
+    margin-bottom: 0;
+    font-size: 1rem;
+  }
+}
