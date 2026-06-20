@@ -29,7 +29,7 @@ webserver_headers:
 logo:
   path: /assets/img/logo/evo copestone logo.png
 
-exclude: [node_modules,webpack-config.js,package.json,package-lock.json]
+exclude: [node_modules,webpack-config.js,package.json,package-lock.json,_config_dev.yml]
 
 group: evo Home Loans
 

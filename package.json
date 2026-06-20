@@ -4,8 +4,8 @@
   "description": "Get online. Grow online. Intellify your business to reach new heights.",
   "scripts": {
     "bundle": "node --openssl-legacy-provider ./node_modules/webpack/bin/webpack.js",
-    "serve": "jekyll serve --baseurl ''",
-    "trace": "jekyll serve --trace --baseurl ''"
+    "serve": "bundle exec jekyll serve --config _config.yml,_config_dev.yml",
+    "trace": "bundle exec jekyll serve --trace --config _config.yml,_config_dev.yml"
   },
   "author": "Intellify-Cloud",
   "license": "ISC",
