@@ -1,15 +1,22 @@
 <!-- Hero -->
   <header class="hero">
+    <picture class="hero__media" aria-hidden="true">
+      <source media="(max-width: 767px)" srcset="{{ site.baseurl }}/assets/img/hero/evo-copestone-home-loans-mobile-hero.jpg">
+      <img class="hero__image"
+        src="{{ site.baseurl }}/assets/img/hero/evo-copestone-home-loans-hero.jpg"
+        alt=""
+        width="4000"
+        height="1198"
+        fetchpriority="high"
+        loading="eager"
+        decoding="async">
+    </picture>
     <div class="container">
       <div class="hero__content">
         {%- if site.data.sitetext.header.title -%}
         <div class="hero__eyebrow">{{ site.data.sitetext.header.title | markdownify }}</div>
         {%- endif -%}
-        {%- if site.data.sitetext.header.text -%}
-        <div class="hero__title">{{ site.data.sitetext.header.text | markdownify }}</div>
-        {%- endif -%}
-        <!-- <a class="btn btn-primary btn-xl shadow text-uppercase js-scroll-trigger"
-          href="https://prequalify.evocopestone.co.za" target="_blank">Get Prequalified Now!</a> -->
+        <h1 class="hero__title">{{ site.data.sitetext.header.text | markdownify }}</h1>
       </div>
     </div>
   </header>

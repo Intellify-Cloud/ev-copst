@@ -1,9 +1,9 @@
 <!-- Navigation -->
-  <nav class="site-header navbar navbar-expand-lg fixed-top" id="mainNav">
+  <nav class="site-header navbar navbar-expand-lg fixed-top" id="mainNav" aria-label="Main navigation">
     <div class="container">
       <a class="site-header__brand navbar-brand js-scroll-trigger" href="#page-top" aria-label="{{ site.title }} home">
         {%- if site.logo -%}
-        <img class="site-header__logo" src="{{ site.baseurl }}{{ site.logo.path }}" alt="{{ site.title }}">
+        <img class="site-header__logo" src="{{ site.baseurl }}{{ site.logo.path }}" alt="{{ site.title }}" width="370" height="131">
         {%- else -%}
         {{ site.title }}
         {%- endif -%}
@@ -19,7 +19,7 @@
           {%- for link in site.data.navigation.nav -%}
           <li class="nav-item">
             {%- if link.url -%}
-            <a class="site-header__link nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
+            <a class="site-header__link nav-link js-scroll-trigger" href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
             {%- elsif link.section -%}
             <a class="site-header__link nav-link js-scroll-trigger" href="#{{ link.section }}">{{ link.title }}</a>
             {%- else -%}

@@ -26,7 +26,7 @@
           </div>
           {% if service.link %}
           <div class="card-grid__footer">
-            <a href="{{ service.link.url }}" class="button button--primary" role="button">{{ service.link.text }}</a>
+            <a href="{{ site.baseurl }}{{ service.link.url }}" class="button button--primary" role="button">{{ service.link.text }}</a>
           </div>
           {% endif %}
         </article>

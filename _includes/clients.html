@@ -13,14 +13,18 @@
       {% for client in site.data.sitetext.clients.list %}
       <div class="brand-list__item">
         <a href="{{ client.url }}" target="_blank" rel="noopener noreferrer">
-          <img class="brand-list__image" src="{{ client.logo }}" alt="{{ client.title }}">
+          <img class="brand-list__image" src="{{ client.logo }}" alt="{{ client.title }}"
+            width="{{ client.logo_width }}" height="{{ client.logo_height }}"
+            loading="lazy" decoding="async">
         </a>
       </div>
       {% endfor %}
       {% for client in site.data.sitetext.clients.list %}
-      <div class="brand-list__item">
-        <a href="{{ client.url }}" target="_blank" rel="noopener noreferrer">
-          <img class="brand-list__image" src="{{ client.logo }}" alt="{{ client.title }}">
+      <div class="brand-list__item" aria-hidden="true">
+        <a href="{{ client.url }}" target="_blank" rel="noopener noreferrer" tabindex="-1">
+          <img class="brand-list__image" src="{{ client.logo }}" alt="" aria-hidden="true"
+            width="{{ client.logo_width }}" height="{{ client.logo_height }}"
+            loading="lazy" decoding="async">
         </a>
       </div>
       {% endfor %}

@@ -1,6 +1,7 @@
 .button,
 .btn {
   display: inline-block;
+  min-height: 48px;
   margin: $space-2;
   padding: 12px 24px;
   border: 2px solid transparent;
@@ -61,4 +62,3 @@
     }
   }
 }
-

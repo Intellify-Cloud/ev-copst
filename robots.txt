@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://evohomeloans.co.za/bond-originator/cape-town/evo-copestone/sitemap.xml

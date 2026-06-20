@@ -1,4 +1,6 @@
-baseurl: ""
+url: https://evohomeloans.co.za
+baseurl: /bond-originator/cape-town/evo-copestone
+lang: en
 
 title      : evo Copestone - Bond Origination & Home Loans Expert in Cape Town
 email      : grant.butler@evogroup.co.za
@@ -12,6 +14,9 @@ analytics:
 
 collections:
   portfolio:
+
+plugins:
+  - jekyll-sitemap
 
 markdown: kramdown
 
@@ -29,7 +34,5 @@ exclude: [node_modules,webpack-config.js,package.json,package-lock.json]
 group: evo Home Loans
 
 company: evo Copestone 
-
-url: https://evohomeloans.co.za/bond-originator/cape-town/evo-copestone/ 
 
 address: 75 Starfish, Ocean Tides Residential Estate, Big Bay, Cape Town, 7441

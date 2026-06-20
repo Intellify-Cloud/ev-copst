@@ -18,7 +18,7 @@
 
         <article class="card-grid__item">
           <div class="card-grid__body">
-            <img class="card-img-top" src="{{ post.image }}" alt="Card image cap">
+            <img class="card-img-top" src="{{ post.image }}" alt="{{ post.title }}" loading="lazy" decoding="async">
             <h3 class="card-grid__title">{{ post.title | markdownify | strip_html | strip }}</h3>
             <div class="card-grid__text">{{ post.excerpt | markdownify }}</div>
             {{ post.category}}

@@ -8,7 +8,7 @@
     <div class="brand-list{% if site.data.sitetext.suburbs.horizontal-scrolling == "yes" %} brand-list--scroll{% endif %}">
       {% for suburb in site.data.sitetext.suburbs.list %}
       <div class="brand-list__item">
-        <img class="brand-list__image" src="{{ suburb.image }}" alt="{{ suburb.title }}">
+        <img class="brand-list__image" src="{{ suburb.image }}" alt="{{ suburb.title }}" loading="lazy" decoding="async">
       </div>
       {% endfor %}
     </div>

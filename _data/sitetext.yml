@@ -1,6 +1,6 @@
 header:
     title: 
-    text: 
+    text: Bond Origination Experts
 
 expert:
     title: "Get pre-approved for a home loan today"
@@ -137,24 +137,38 @@ clients:
       - title: "ABSA"
         url: https://www.absa.co.za
         logo: assets/img/clients/ABSA_Logo.png
+        logo_width: 201
+        logo_height: 200
       - title: "Standard Bank"
         url: https://www.standardbank.co.za/
         logo: assets/img/clients/Standard-Bank-Logo.png
+        logo_width: 541
+        logo_height: 139
       - title: "Nedbank"
         url: https://www.nedbank.co.za
         logo: assets/img/clients/Nedbank-Logo.png
+        logo_width: 450
+        logo_height: 80
       - title: "Investec"
         url: https://www.investec.co.za/
         logo: assets/img/clients/Investec_Logo.png
+        logo_width: 400
+        logo_height: 80
       - title: "First National Bank"
         url: https://www.fnb.co.za/
         logo: assets/img/clients/First_National_Bank_Logo.png
+        logo_width: 400
+        logo_height: 223
       - title: "Sentinal Homes"
         url: https://www.sentinelhomes.co.za/
         logo: assets/img/clients/Sentinal-Homes-Logo.png
+        logo_width: 551
+        logo_height: 150
       - title: "Rand Merchant Bank"
         url: https://www.rmb.co.za
         logo: assets/img/clients/RMB_Logo.png
+        logo_width: 400
+        logo_height: 425
     
 team:
     title: "THE TEAM"
@@ -166,6 +180,8 @@ team:
       - name: "Grant Butler"
         role: "Managing Director"
         image: assets/img/team/Grant-Butler-evo-Copestone.jpg
+        image_width: 572
+        image_height: 572
         social:
           - url: tel:082 603 5414
             icon: fas fa-phone
@@ -179,6 +195,8 @@ team:
       - name: "Andy Breach"
         role: "Operations Director"
         image: assets/img/team/Andy-Breach-evo-Copestone.jpg
+        image_width: 500
+        image_height: 500
         social:
           - url: tel:083 968 8712
             icon: fas fa-phone

@@ -1,10 +1,15 @@
 .brand-list-wrapper {
   position: relative;
-  overflow: hidden;
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
   padding: 5rem 0;
 }
 
 .brand-list {
+  --brand-list-gap: #{$space-7};
+  --brand-list-half-gap: calc(#{$space-7} / 2);
+
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: $space-5;
@@ -12,11 +17,14 @@
 
   &--marquee {
     display: flex;
+    width: max-content;
     flex-wrap: nowrap;
-    gap: $space-7;
-    animation: marquee 20s linear infinite;
+    gap: var(--brand-list-gap);
+    will-change: transform;
+    animation: brand-list-marquee 40s linear infinite;
 
-    &:hover {
+    &:hover,
+    &:focus-within {
       animation-play-state: paused;
     }
 
@@ -25,15 +33,28 @@
     }
   }
 
-  @keyframes marquee {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(calc(-50% + 50vw)); }
+  @keyframes brand-list-marquee {
+    from {
+      transform: translateX(0);
+    }
+
+    to {
+      transform: translateX(calc(-50% - var(--brand-list-half-gap)));
+    }
   }
 
   &__item {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    a {
+      display: inline-flex;
+      min-width: 48px;
+      min-height: 48px;
+      align-items: center;
+      justify-content: center;
+    }
   }
 
   &__image {

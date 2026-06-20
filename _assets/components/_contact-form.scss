@@ -144,3 +144,40 @@
     color: $color-text-muted;
   }
 }
+
+.contact-form {
+  &__group {
+    margin-bottom: $space-4;
+  }
+
+  &__control {
+    min-height: 48px;
+    padding: 12px 16px;
+    font-size: $font-size-paragraph;
+  }
+
+  &__message {
+    min-height: 180px;
+  }
+
+  &__actions {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .contact-card {
+    &__role,
+    &__links li,
+    &__address,
+    &__hours li {
+      font-size: $font-size-paragraph;
+    }
+
+    &__links a {
+      display: inline-flex;
+      min-height: 48px;
+      align-items: center;
+    }
+  }
+}

@@ -1,8 +1,14 @@
 html {
   scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  max-width: 100%;
   overflow-x: hidden;
   margin: 0;
   background: $color-page;
@@ -48,6 +54,20 @@ a {
 
 img {
   max-width: 100%;
+  height: auto;
+}
+
+iframe,
+video,
+svg {
+  max-width: 100%;
+}
+
+p,
+a,
+li,
+address {
+  overflow-wrap: anywhere;
 }
 
 ::selection {

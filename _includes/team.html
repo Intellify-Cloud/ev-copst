@@ -8,7 +8,9 @@
 	  <div class="team__grid">
 		{% for person in site.data.sitetext.team.people %}
 		<article class="team__member">
-		  <img class="team__photo" src="{{ person.image }}" alt="{{ person.name }}">
+		  <img class="team__photo" src="{{ person.image }}" alt="{{ person.name }}"
+        width="{{ person.image_width }}" height="{{ person.image_height }}"
+        loading="lazy" decoding="async">
 		  <h3 class="team__name">{{ person.name }}</h3>
 		  <p class="team__role">{{ person.role }}</p>
 		  <ul class="team__socials">
