@@ -14,9 +14,9 @@
     <div class="container">
       <div class="hero__content">
         {%- if site.data.sitetext.header.title -%}
-        <div class="hero__eyebrow">{{ site.data.sitetext.header.title | markdownify }}</div>
+        <p class="hero__eyebrow">{{ site.data.sitetext.header.title | markdownify | strip_html | strip }}</p>
         {%- endif -%}
-        <h1 class="hero__title">{{ site.data.sitetext.header.text | markdownify }}</h1>
+        <h1 class="hero__title">{{ site.data.sitetext.header.text | default: "Bond Origination Experts in Cape Town" | markdownify | strip_html | strip }}</h1>
       </div>
     </div>
   </header>
