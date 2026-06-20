@@ -6,10 +6,13 @@
   align-items: center;
   background:
     linear-gradient(rgba($black, 0.1), rgba($black, 0.1)),
-    url("#{$header-image}") center / cover no-repeat;
+    url("#{$header-image-mobile}") center / cover no-repeat;
 
   @include media-breakpoint-up(md) {
     min-height: 60vh;
+    background:
+      linear-gradient(rgba($black, 0.1), rgba($black, 0.1)),
+      url("#{$header-image}") center / cover no-repeat;
   }
 
   &__content {
